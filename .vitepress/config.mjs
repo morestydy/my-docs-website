@@ -164,6 +164,10 @@ export default withMermaid({
     //   // use more markdown-it plugins!
     //   md.use(tocPlugin);
     // },
+      image: {
+      // 默认禁用；设置为 true 可为所有图片启用懒加载。
+      lazyLoading: true
+    }
   },
   mermaid: {
     // refer https://mermaid.js.org/config/setup/modules/mermaidAPI.html#mermaidapi-configuration-defaults for options
